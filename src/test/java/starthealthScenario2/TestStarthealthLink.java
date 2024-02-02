@@ -16,6 +16,7 @@ public class TestStarthealthLink {
 	@BeforeClass
 	public void startBrowser()
 	{
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\selva\\Downloads\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://www.starhealth.in/");
