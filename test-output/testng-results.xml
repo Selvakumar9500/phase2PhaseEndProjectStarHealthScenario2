@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-02T15:20:34 IST" name="PhaseEndProject" finished-at="2024-02-02T15:20:55 IST" duration-ms="21072">
+    <groups>
+    </groups>
+    <test started-at="2024-02-02T15:20:34 IST" name="starhealth001" finished-at="2024-02-02T15:20:50 IST" duration-ms="16094">
+      <class name="starthealthScenario2.TestStarthealthPage">
+        <test-method is-config="true" signature="startBrowser()[pri:0, instance:starthealthScenario2.TestStarthealthPage@55fe41ea]" started-at="2024-02-02T15:20:34 IST" name="startBrowser" finished-at="2024-02-02T15:20:38 IST" duration-ms="4185" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startBrowser -->
+        <test-method signature="click_onPlans()[pri:49, instance:starthealthScenario2.TestStarthealthPage@55fe41ea]" started-at="2024-02-02T15:20:38 IST" name="click_onPlans" finished-at="2024-02-02T15:20:40 IST" duration-ms="1689" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- click_onPlans -->
+        <test-method signature="click_on_option()[pri:50, instance:starthealthScenario2.TestStarthealthPage@55fe41ea]" started-at="2024-02-02T15:20:40 IST" name="click_on_option" finished-at="2024-02-02T15:20:44 IST" duration-ms="4180" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- click_on_option -->
+        <test-method signature="enter_user_details(java.lang.String,java.lang.String,java.lang.String)[pri:51, instance:starthealthScenario2.TestStarthealthPage@55fe41ea]" started-at="2024-02-02T15:20:44 IST" name="enter_user_details" finished-at="2024-02-02T15:20:45 IST" duration-ms="496" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9090808090]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enter_user_details -->
+        <test-method signature="clickTwitterLogo()[pri:54, instance:starthealthScenario2.TestStarthealthPage@55fe41ea]" started-at="2024-02-02T15:20:45 IST" name="clickTwitterLogo" finished-at="2024-02-02T15:20:50 IST" duration-ms="5205" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickTwitterLogo -->
+        <test-method signature="validateTwitterPage()[pri:55, instance:starthealthScenario2.TestStarthealthPage@55fe41ea]" started-at="2024-02-02T15:20:50 IST" name="validateTwitterPage" finished-at="2024-02-02T15:20:50 IST" duration-ms="42" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTwitterPage -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:starthealthScenario2.TestStarthealthPage@55fe41ea]" started-at="2024-02-02T15:20:50 IST" name="CloseBrowser" finished-at="2024-02-02T15:20:50 IST" duration-ms="182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- starthealthScenario2.TestStarthealthPage -->
+    </test> <!-- starhealth001 -->
+    <test started-at="2024-02-02T15:20:50 IST" name="starhealth002" finished-at="2024-02-02T15:20:55 IST" duration-ms="4906">
+      <class name="starthealthScenario2.TestStarthealthLink">
+        <test-method is-config="true" signature="startBrowser()[pri:0, instance:starthealthScenario2.TestStarthealthLink@394df057]" started-at="2024-02-02T15:20:50 IST" name="startBrowser" finished-at="2024-02-02T15:20:53 IST" duration-ms="2999" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startBrowser -->
+        <test-method signature="click_onPlans()[pri:49, instance:starthealthScenario2.TestStarthealthLink@394df057]" started-at="2024-02-02T15:20:53 IST" name="click_onPlans" finished-at="2024-02-02T15:20:55 IST" duration-ms="1676" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- click_onPlans -->
+        <test-method signature="click_on_option()[pri:50, instance:starthealthScenario2.TestStarthealthLink@394df057]" started-at="2024-02-02T15:20:55 IST" name="click_on_option" finished-at="2024-02-02T15:20:55 IST" duration-ms="152" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- click_on_option -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:starthealthScenario2.TestStarthealthLink@394df057]" started-at="2024-02-02T15:20:55 IST" name="CloseBrowser" finished-at="2024-02-02T15:20:55 IST" duration-ms="69" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- starthealthScenario2.TestStarthealthLink -->
+    </test> <!-- starhealth002 -->
+  </suite> <!-- PhaseEndProject -->
+</testng-results>

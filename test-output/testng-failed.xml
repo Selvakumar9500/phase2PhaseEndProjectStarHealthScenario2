@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [PhaseEndProject]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="starhealth001(failed)">
+    <parameter name="pin" value="123456"/>
+    <parameter name="Mobile" value="9090808090"/>
+    <parameter name="Name" value="admin"/>
+    <classes>
+      <class name="starthealthScenario2.TestStarthealthPage">
+        <methods>
+          <include name="clickTwitterLogo"/>
+          <include name="startBrowser"/>
+          <include name="CloseBrowser"/>
+        </methods>
+      </class> <!-- starthealthScenario2.TestStarthealthPage -->
+    </classes>
+  </test> <!-- starhealth001(failed) -->
+</suite> <!-- Failed suite [PhaseEndProject] -->
